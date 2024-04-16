@@ -5,7 +5,7 @@ const styles = {
     backgroundColor: '#fff',
     color: '#0A283E',
     display: 'flex',
-    alignItems: 'center',
+    // alignItems: 'center',
     flexDirection:'column',
     justifyContent:'center',
     width:'50%',
@@ -13,7 +13,7 @@ const styles = {
 
   },
   container:{
-    with:'50%',
+    with:'100%',
   }
 };
 

@@ -4,13 +4,15 @@ const styles={
     producto:{
         border: 'solid 1px #eee',
         boxShadow: '0 5px 5px rgb(0,0,0,0.1)',
-        width: '20%',
-        padding:'10px 15px',
+        width: '150px',
+        padding:'10px ',
         borderRadius: '5px',
+        // height:'50%'
     },
     img:{
-        width:'80%',
-        height:'50%'
+        width:'100%',
+        height:'50%',
+        objectFit: 'cover'
     }
 }
 function Producto({ agregarAlCarro, producto }) {
