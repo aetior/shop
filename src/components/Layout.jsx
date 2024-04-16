@@ -6,11 +6,14 @@ const styles = {
     color: '#0A283E',
     display: 'flex',
     alignItems: 'center',
-    flexDirection:'column'
+    flexDirection:'column',
+    justifyContent:'center',
+    width:'50%',
+    margin:'auto',
 
   },
   container:{
-    with:'1200px',
+    with:'50%',
   }
 };
 
